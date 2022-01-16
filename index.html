@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rafli Januar Rizki - Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap 5 -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+      <!-- Home Section Start -->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Yo, I'm</p>
+              <h1>Rafli Januar Rizki</h1>
+              <h2>Junior Web Programmer</h2>
+              <a href="#about" class="btn link-item">More About Me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="contain">
+          <div class="row">
+            <div class="section-title">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/about-img.png" alt="about-img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Halo, nama saya Rafli Januar Rizki, dan saya berumur 21 tahun.
+                Saat ini saya sedang menempuh pendidikan S1 di Universitas KH.
+                Bahaudin Mudhary Madura. Saya juga merupakan bagian dari tim
+                Instinc yang telah berdiri sejak November 2021. Pada tim
+                Instinc, saya lebih banyak bekerja pada bagian Backend, namun
+                terkadang juga sedikit membantu pada bagian Frontend.
+              </p>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">PHP</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">CodeIgniter</div>
+                <div class="skill-item">Java</div>
+              </div>
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  Experience
+                </button>
+              </div>
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date"> 2019 - Sekarang </span>
+                    <h4>
+                      S1 Sistem Informasi -
+                      <span>Universitas KH. Bahaudin Mudhary Madura</span>
+                    </h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+              <!-- Experience Start -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date"> 2021 - Sekarang </span>
+                    <h4>Backend Web Programmer - <span>Instinc Team</span></h4>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience End -->
+              <a href="file/cv.pdf" target="_blank" class="btn">Download CV</a>
+              <a href="#contact" class="btn link-item">Contact</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Recent Work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">PABPDSI Sumenep</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    PABPDSI Sumenep adalah sebuah website informasi yang berisi
+                    seputar informasi tentang PABPDSI yang ada di Sumenep, mulai
+                    dari info dasar seperti penjelasan singkat tentang PABPDSI
+                    hingga produk hukum yang mereka miliki.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>November 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span
+                        >HTML, CSS, JavaScript, PHP, Bootstrap,
+                        CodeIgniter</span
+                      >
+                    </li>
+                    <li>Role - <span>Backend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">
+                Prof. Rachmad Hidayat - Web Profile
+              </h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Website ini merupakan website yang berisi informasi tentang
+                    Prof. Dr. Ir. H. Rachmad Hidayat, MT, IPU, AER. Mulai dari
+                    data pribadi tentang beliau hingga artikel, penelitian,
+                    buku, karya ilmiah, dll yang beliau miliki.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>Januari 2022</span></li>
+                    <li>
+                      Technologies Used -
+                      <span
+                        >HTML, CSS, JavaScript, PHP, Bootstrap,
+                        CodeIgniter</span
+                      >
+                    </li>
+                    <li>Role - <span>Backend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3.jpg" alt="portfolio item thumbnail" />
+              </div>
+              <h3 class="portfolio-item-title">Arya Game Studio</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Arya Game Studio adalah sebuah website company profile yang
+                    saya buat untuk memenuhi tugas akhir pada salah satu mata
+                    kuliah yang saya tempuh di Universitas KH. Bahaudin Mudhary
+                    Madura.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>Januari 2022</span></li>
+                    <li>
+                      Technologies Used -
+                      <span>HTML, CSS, JavaScript, Bootstrap</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.domain.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+      <!-- Contact Sectioon Start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>My Contact</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=raflijr3101@gmail.com"
+                  target="_blank"
+                  >raflijr3101@gmail.com</a
+                >
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <a href="https://wa.me/+6281916425853" target="_blank"
+                  >081916425853</a
+                >
+              </div>
+              <div class="contact-info-item">
+                <h3>Address</h3>
+                <a href="https://goo.gl/maps/5PBmdDwFrJrtdEf19" target="_blank"
+                  >Bangselok, Sumenep, Jawa Timur</a
+                >
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.facebook.com/raflijanuarr"
+                    target="_blank"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                  <a
+                    href="https://instagram.com/raflijanuarr?utm_medium=copy_link"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://twitter.com/raflijanuarr?t=ifLs75E4oWh4vb0W5cc-dQ&s=09"
+                    target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Sectioon End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="#" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+    <script src="js/script.js"></script>
+    <!-- Bootstrap 5 -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
